@@ -112,7 +112,7 @@ $(document).ready(function () {
         },
         programa: {
             title: "Programa",
-            /*schedule: [
+            schedule: [
                 {
                     diaSemana: "Quinta", diaMes: "14 março",
                     eventos: [
@@ -161,13 +161,13 @@ $(document).ready(function () {
                         {hora: "18:00 - 19:00", nome: "Sessão de encerramento", local: "ESSUA, Universidade de Aveiro"}
                     ]
                 }
-            ]*/
+            ]
             
         },
         apply: {
             sectionHeading: "Inscrição",
             sectionSubheading: "Nesta seccão indicar-te-emos os passos a seguir para efetuares a tua inscrição assim que esta estiver disponível", //"Para te inscreveres só precisas de efetuar os seguintes passos:",
-            /*corpo: [
+            corpo: [
                 " Lê o regulamento que se encontra <a href='assets/Regulamento.pdf' target='_blank'>aqui</a>.",
                 "Regista-te no site do BEST. Podes fazê-lo " +
                 "<a target='_blank' href='https://www.best.eu.org/account/registration.jsp'>aqui</a>.",
@@ -178,7 +178,7 @@ $(document).ready(function () {
                 "que é de preenchimento facultativo. Clica em 'Apply' para finalizares esta parte.",
                 "Já tens equipa? Então terminaste a tua pré-inscrição para a EBEC Aveiro 2019. Brevemente irás " +
                 "receber um e-mail de confirmação de inscrição com mais informação sobre o evento."
-            ]*/
+            ]
         },
         testimonials: {
             sectionHeading: "Teste<span class='hidden-lg hidden-md hidden-sm'>-<br></span>munhos",
@@ -314,8 +314,9 @@ $(document).ready(function () {
         juri: {
             sectionHeading: "Júri",
             sectionSubHeading: "Divulgaremos aqui quem irá julgar as provas",
-            /*sectionSubHeading1: "TEAM DESIGN",
+            sectionSubHeading1: "TEAM DESIGN",
             sectionSubHeading2: "CASE STUDY",
+            /*
             juri1: [
                 {
                     nome: "Vitor Bonifácio",
@@ -336,16 +337,17 @@ $(document).ready(function () {
                     foto: "assets/img/juri/5.jpg",
                     conta: "https://www.linkedin.com/in/jo%C3%A3o-labrincha-0b69549/"
                 }
-            ]*/
+            ]
+            */
         },
         partners: {
             sectionHeading: "Parceiros",
-            /*sectionSubHeading: "Parceiros de Mídia",
-            sectionSubHeading2: "Parceiros Promo"*/
+            sectionSubHeading: "Parceiros de Mídia",
+            sectionSubHeading2: "Parceiros Promo"
         },
         team: {
             sectionHeading: "Equipa",
-            /*equipa: [
+            equipa: [
                 {nome: "Pedro D. Gomes", role: "Coordenador da EBEC Aveiro 2019", foto: "assets/img/team/david.jpg"},
                 {nome: "Ana Moura", role: "Responsável de Tópico", foto: "assets/img/team/anaMoura.jpg"},
                 {
@@ -364,7 +366,7 @@ $(document).ready(function () {
                 {nome: "Beatriz Candeias", role: "Responsável de Logística", foto: "assets/img/team/beatriz.jpg"},
                 {nome: "Marta Santos", role: "Responsável de Participantes", foto: "assets/img/team/marta.jpg"},
                 {nome: "Luis Filipe Aguiar", role: "Responsável de Relações Públicas", foto: "assets/img/team/luis.jpg"}
-            ]*/
+            ]
         },
         becomePartner: {
             sectionHeading: "Torne-se Nosso parceiro",
@@ -436,7 +438,7 @@ $(document).ready(function () {
             ]
         },
         info: {
-            //mapa: "https://www.google.com/maps/embed/v1/place?key=AIzaSyCMIUqakqzpEZx05JpVA7GaNhcpkfwyAyg&q=BEST Aveiro, Aveiro, PT",
+            mapa: "https://www.google.com/maps/embed/v1/place?key=AIzaSyCMIUqakqzpEZx05JpVA7GaNhcpkfwyAyg&q=BEST Aveiro, Aveiro, PT",
             infos: [
                 {
                     chave: "Morada",

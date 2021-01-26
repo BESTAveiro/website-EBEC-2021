@@ -381,14 +381,14 @@ $(document).ready(function () {
         contacts: {
             sectionHeading: "Contacts",
             people: [
-                {
+                /*{
                     foto: "assets/img/team/david-2.jpg",
                     nome: "Pedro D. Gomes",
                     role: "Coordinator of EBEC Aveiro 2019",
                     tel: "+(351) 938 097 366",
                     email: "mailto:pedrodavid1969@gmail.com",
                     email2: "pedrodavid1969@gmail.com"
-                },
+                },*/
                 {
                     foto: "assets/img/team/mateus.jpg",
                     nome: "Mateus Lima",
