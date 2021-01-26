@@ -9,19 +9,37 @@ $(document).ready(function () {
             dropdowns: [
                 {
                     title: "Sobre a EBEC",
-                    menu: ["EBEC Aveiro", "Edições Anteriores", "Programa", "Inscrição", "Testemunhos"]
+                    menu: [
+                        {nome: "EBEC Aveiro", ref: "#seccoes"},
+                        {nome: "Edições Anteriores", ref: '#ebecAnt'},
+                        {nome: "Programa", ref: '#programa'},
+                        {nome: "Inscrição", ref: '#apply'},
+                        {nome: "Testemunhos", ref: '#testemunhos'},
+                        {nome: "Júri", ref: "#juri"},
+                    ]
                 },
                 {
-                    title: "Mais sobre a EBEC",
-                    menu: ["FAQ", "Júri", "Parceiros", "Equipa", "Torne-se nosso Parceiro", "Contactos"]
+                    title: "FAQ&Outros",
+                    menu: [
+                        {nome: "FAQ", ref: "#faqs"},
+                        {nome: "Parceiros", ref: "#partners"},
+                        {nome: "A Equipa", ref: "#equipa"},
+                        {nome: "Torne-se nosso Parceiro", ref: "#parceria"},
+                        {nome: "Contactos", ref: "#contactos"}]
                 },
-                {title: "A Organização", menu: ["Sobre o BEST Aveiro", "Informações"]}
+                {
+                    title: "Sobre o BEST",
+                    menu: [
+                        {nome: "Sobre o BEST Aveiro", ref: "#best"},
+                        {nome: "Informações", ref: "#info"}]
+                }
             ]
+            
 
         },
         entrada: {
             logo: "assets/img/logos/ebec-aveiro-color.png",
-            //title: "14, 15, 16, 17 e 20 de março<br class='hidden-xs'> de 2019"
+            title: "14, 15, 16, 17 e 20 de março<br class='hidden-xs'> de 2019"
         },
         ebecAveiro: {
             sectionHeading: "EBEC Aveiro",

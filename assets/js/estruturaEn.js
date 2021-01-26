@@ -11,24 +11,24 @@ $(document).ready(function () {
                     title: "About EBEC",
                     menu: [
                         {nome: "EBEC Aveiro", ref: "#media"},
-                        {nome: "Preview Editions", ref: '#ebecAnt'},
+                        {nome: "Previous Editions", ref: '#ebecAnt'},
                         {nome: "Program", ref: '#programa'},
                         {nome: "Subscribing", ref: '#apply'},
-                        {nome: "Testimonials", ref: '#testemunhos'}
+                        {nome: "Testimonials", ref: '#testemunhos'},
+                        {nome: "Jury", ref: "#juri"},
                     ]
                 },
                 {
-                    title: "More About EBEC",
+                    title: "FAQ&Others",
                     menu: [
                         {nome: "FAQ", ref: "#faqs"},
-                        {nome: "Jury", ref: "#juri"},
                         {nome: "Partners", ref: "#partners"},
                         {nome: "The Team", ref: "#equipa"},
                         {nome: "Become Our Partner", ref: "#parceria"},
                         {nome: "Contacts", ref: "#contactos"}]
                 },
                 {
-                    title: "The Organization",
+                    title: "About BEST",
                     menu: [
                         {nome: "About the BEST Aveiro", ref: "#best"},
                         {nome: "Information", ref: "#info"}]
@@ -38,7 +38,7 @@ $(document).ready(function () {
         },
         entrada: {
             logo: "assets/img/logos/ebec-aveiro-color.png",
-            //title: "March<br> 14th, 15th, 16th, 17th and 20th"
+            title: "March<br> 14th, 15th, 16th, 17th and 20th"
         },
         ebecAveiro: {
             sectionHeading: "EBEC Aveiro",
@@ -100,7 +100,7 @@ $(document).ready(function () {
             }
         },
         edicoesAnteriores: {
-            sectionHeading: "Preview Editions",
+            sectionHeading: "Previous Editions",
             videos: [
                 "https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FEBEC.aveiro%2Fvideos%2F403975390199860%2F&show_text=false&width=560",
                 "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FEBEC.aveiro%2Fvideos%2F1347546375345790%2F",
@@ -109,7 +109,7 @@ $(document).ready(function () {
         },
         programa: {
             title: "Program",
-            /*schedule: [
+            schedule: [
                 {
                     diaSemana: "Thursday", diaMes: "March 14th",
                     eventos: [
@@ -154,13 +154,13 @@ $(document).ready(function () {
                         {hora: "18:00 - 19:00", nome: "Closing Session", local: "ESSUA, University of Aveiro"}
                     ]
                 }
-            ]*/
+            ]
 
         },
         apply: {
             sectionHeading: "Subscribing",
             sectionSubheading: "Here we will show you the steps to follow in order to apply as soon as applications are avaliable", //"To apply you only need to follow this steps:",
-            /*corpo: [
+            corpo: [
                 " Read the regulament that can be found <a href=\"../Regulamento.pdf\" target=\"_blank\">here</a>.",
                 " Sign up on BEST Website. You can do it " +
                 "<a href=\"https://www.best.eu.org/account/registration.jsp\" target=\"_blank\">here</a>.",
@@ -171,7 +171,7 @@ $(document).ready(function () {
                 "this part.",
                 "Already have a team? So you finish your pre-registration to EBEC Aveiro 2018. Soon you will receive an " +
                 "email with confirmation of registration and more information about the event."
-            ]*/
+            ]
         },
         testimonials: {
             sectionHeading: "Testi<span class=\"hidden-lg hidden-md hidden-sm\">-<br></span>monials",
@@ -381,14 +381,14 @@ $(document).ready(function () {
         contacts: {
             sectionHeading: "Contacts",
             people: [
-                /*{
+                {
                     foto: "assets/img/team/david-2.jpg",
                     nome: "Pedro D. Gomes",
                     role: "Coordinator of EBEC Aveiro 2019",
                     tel: "+(351) 938 097 366",
                     email: "mailto:pedrodavid1969@gmail.com",
                     email2: "pedrodavid1969@gmail.com"
-                },*/
+                },
                 {
                     foto: "assets/img/team/mateus.jpg",
                     nome: "Mateus Lima",
