@@ -168,14 +168,14 @@ $(document).ready(function () {
                 {
                     diaSemana: "Domingo", diaMes: "11 abril",
                     eventos: [
-                        {hora: "00:00 - 14:30", nome: "Competição", local: "ESSUA, Universidade de Aveiro"}
+                        {hora: "00:00 - 14:30", nome: "Competição", local: "Online"}
                     ]
                 },
                 {
                     diaSemana: "Quarta", diaMes: "14 abril",
                     eventos: [
-                        {hora: "13:30 - 18:00", nome: "Apresentações", local: "ESSUA, Universidade de Aveiro"},
-                        {hora: "18:00 - 19:00", nome: "Sessão de encerramento", local: "ESSUA, Universidade de Aveiro"}
+                        {hora: "14:30 - 18:30", nome: "Apresentações", local: "Online"},
+                        {hora: "18:45 - 19:30", nome: "Sessão de encerramento", local: "Online"}
                     ]
                 }
             ]
@@ -433,9 +433,9 @@ $(document).ready(function () {
                     foto: "assets/img/team/david-2.jpg",
                     nome: "Carolina Rodrigues",
                     role: "Responsável de Relações Empresariais",
-                    tel: "+(351) 917 369 988",
-                    email: "mailto:dalilarakelam@gmail.com",
-                    email2: "dalilarakelam@gmail.com"
+                    tel: "+(351) 969 431 364",
+                    email: "mailto:carolina.isa96@gmail.com",
+                    email2: "carolina.isa96@gmail.com"
                 }
             ]
         },

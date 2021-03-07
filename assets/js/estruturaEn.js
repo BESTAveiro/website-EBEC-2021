@@ -158,7 +158,7 @@ $(document).ready(function () {
                     ]
                 },
                 {
-                    diaSemana: "Sunday", diaMes: "March 11th",
+                    diaSemana: "Sunday", diaMes: "April 11th",
                     eventos: [
                         {hora: "00:00 - 14:30", nome: "Competition", local: "Online"}
                     ]
@@ -426,9 +426,9 @@ $(document).ready(function () {
                     foto: "assets/img/team/david-2.jpg",
                     nome: "Carolina Rofrigues",
                     role: "Corporate Relations Responsible",
-                    tel: "+(351) --- --- ---",
-                    email: "mailto:-----@gmail.com",
-                    email2: "-----@gmail.com"
+                    tel: "+(351) 969 431 364",
+                    email: "mailto:carolina.isa96@gmail.com",
+                    email2: "carolina.isa96@gmail.com"
                 }
         
              
