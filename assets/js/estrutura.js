@@ -114,48 +114,65 @@ $(document).ready(function () {
             title: "Programa",
             schedule: [
                 {
-                    diaSemana: "Quinta", diaMes: "14 março",
+                    diaSemana: "Terça", diaMes: "6 abril",
                     eventos: [
                         {
-                            hora: "16:00 - 17:30",
-                            nome: "Cocktail Network",
-                            local: "Complexo Pedagógico, Universidade de Aveiro"
+                            hora: "16:30 - 18:30",
+                            nome: "Formação Técnica",
+                            local: "Online"
                         }
                     ]
                 },
                 {
-                    diaSemana: "Sexta", diaMes: "15 março",
+                    diaSemana: "Quarta", diaMes: "7 abril",
                     eventos: [
                         {
-                            hora: "18:00 - 20:00",
-                            nome: "Best Training Days",
-                            local: "Complexo Pedagógico, Universidade de Aveiro"
+                            hora: "14:00 - 16:00",
+                            nome: "Tarde Empresarial",
+                            local: "Online"
+                        },
+                        
+                        {
+                            hora: "16:30 - 18:30",
+                            nome: "Formação Técnica",
+                            local: "Online"
                         }
                     ]
                 },
                 {
-                    diaSemana: "Sábado", diaMes: "16 março",
+                    diaSemana: "Quinta", diaMes: "8 abril",
                     eventos: [
-                        {hora: "09:30 - 10:30", nome: "Check-in", local: "DAO, Universidade de Aveiro"},
-                        {hora: "10:30 - 11:30", nome: "Sessão de Abertura", local: "DAO, Universidade de Aveiro"},
+                        {
+                            hora: "16:30 - 18:30",
+                            nome: "Formação Técnica",
+                            local: "Online"
+                        }
+                    ]
+                },
+        
+                {
+                    diaSemana: "Sábado", diaMes: "10 abril",
+                    eventos: [
+                        {hora: "10:00 - 10:30", nome: "Check-in", local: "Online"},
+                        {hora: "10:30 - 11:30", nome: "Sessão de Abertura", local: "Online"},
                         {
                             hora: "11:30 - 12:30",
                             nome: "Apresentação das empresas",
-                            local: "DAO, Universidade de Aveiro"
+                            local: "Online"
                         },
-                        {hora: "12:30 - 13:00", nome: "Picture", local: "Meia Lua, Universidade de Aveiro"},
-                        {hora: "13:00 - 14:30", nome: "Almoço", local: "Refeitório do Crasto, Universidade de Aveiro"},
-                        {hora: "14:30 - 00:00", nome: "Competição", local: "ESSUA, Universidade de Aveiro"}
+                        {hora: "12:30 - 13:00", nome: "Picture", local: "Online"},
+                        {hora: "13:00 - 14:30", nome: "Almoço", local: "Online"},
+                        {hora: "14:30 - 00:00", nome: "Competição", local: "Online"}
                     ]
                 },
                 {
-                    diaSemana: "Domingo", diaMes: "17 março",
+                    diaSemana: "Domingo", diaMes: "11 abril",
                     eventos: [
                         {hora: "00:00 - 14:30", nome: "Competição", local: "ESSUA, Universidade de Aveiro"}
                     ]
                 },
                 {
-                    diaSemana: "Quarta", diaMes: "20 março",
+                    diaSemana: "Quarta", diaMes: "14 abril",
                     eventos: [
                         {hora: "13:30 - 18:00", nome: "Apresentações", local: "ESSUA, Universidade de Aveiro"},
                         {hora: "18:00 - 19:00", nome: "Sessão de encerramento", local: "ESSUA, Universidade de Aveiro"}
@@ -348,24 +365,18 @@ $(document).ready(function () {
         team: {
             sectionHeading: "Equipa",
             equipa: [
-                {nome: "Pedro D. Gomes", role: "Coordenador da EBEC Aveiro 2019", foto: "assets/img/team/david.jpg"},
-                {nome: "Ana Moura", role: "Responsável de Tópico", foto: "assets/img/team/anaMoura.jpg"},
-                {
-                    nome: "Dalila Marques",
-                    role: "Responsável de Relações Empresariais",
-                    foto: "assets/img/team/dalila.jpg"
-                },
-                {nome: "Ana Rita Silva", role: "Responsável de Marketing", foto: "assets/img/team/anaRita.jpg"}
+                {nome: "Beatriz Aleixo", role: "Coordenadora da EBEC Aveiro 2021", foto: "assets/img/team/david.jpg"},
+                {nome: "Inês Leite", role: "Coordenadora da EBEC Aveiro 2021", foto: "assets/img/team/david.jpg"},
+                {nome: "Fábio Freitas", role: "Responsável de Tópico", foto: "assets/img/team/david.jpg"},
+                {nome: "Carolina Rodrigues", role: "Responsável de Relações Empresariais", foto: "assets/img/team/david.jpg"},
+                
             ],
             equipa2: [
-                {
-                    nome: "Renan Ferreira",
-                    role: "Responsável de Tecnologias de Informação",
-                    foto: "assets/img/team/renan.jpg"
-                },
-                {nome: "Beatriz Candeias", role: "Responsável de Logística", foto: "assets/img/team/beatriz.jpg"},
-                {nome: "Marta Santos", role: "Responsável de Participantes", foto: "assets/img/team/marta.jpg"},
-                {nome: "Luis Filipe Aguiar", role: "Responsável de Relações Públicas", foto: "assets/img/team/luis.jpg"}
+                {nome: "Pedro Marques", role: "Responsável de Tecnologias de Informação", foto: "assets/img/team/david.jpg"},
+                {nome: "Maria Canhoto", role: "Responsável de Marketing", foto: "assets/img/team/david.jpg"},
+                {nome: "Maria João Martins", role: "Responsável de Logística", foto: "assets/img/team/david.jpg"},
+                {nome: "Bruna Cruz", role: "Responsável de Participantes", foto: "assets/img/team/david.jpg"},
+                   
             ]
         },
         becomePartner: {
@@ -394,14 +405,22 @@ $(document).ready(function () {
         contacts: {
             sectionHeading: "Contactos",
             people: [
-                /*{
+                {
                     foto: "assets/img/team/david-2.jpg",
-                    nome: "Pedro D. Gomes",
-                    role: "Coordenador da EBEC Aveiro 2019",
-                    tel: "+(351) 938 097 366",
-                    email: "mailto:pedrodavid1969@gmail.com",
-                    email2: "pedrodavid1969@gmail.com"
-                },*/
+                    nome: "Inês Leite",
+                    role: "Coordenadora da EBEC Aveiro 2021",
+                    tel: "+(351) 914 241 456",
+                    email: "mailto:inesleite200020@gmail.com ",
+                    email2: "inesleite200020@gmail.com "
+                },
+                {
+                    foto: "assets/img/team/david-2.jpg",
+                    nome: "Beatriz Aleixo",
+                    role: "Coordenadora da EBEC Aveiro 2021",
+                    tel: "+(351) 961 967 126",
+                    email: "mailto:beatriz1aleixo@gmail.com",
+                    email2: "beatriz1aleixo@gmail.com"
+                },
                 {
                     foto: "assets/img/team/mateus.jpg",
                     nome: "Mateus Lima",
@@ -410,14 +429,14 @@ $(document).ready(function () {
                     email: "mailto:mateus.lima@BEST.eu.org",
                     email2: "mateus.lima@BEST.eu.org"
                 },
-                /*{
-                    foto: "assets/img/team/dalila-2.jpg",
-                    nome: "Dalila Marques",
+                {
+                    foto: "assets/img/team/david-2.jpg",
+                    nome: "Carolina Rodrigues",
                     role: "Responsável de Relações Empresariais",
                     tel: "+(351) 917 369 988",
                     email: "mailto:dalilarakelam@gmail.com",
                     email2: "dalilarakelam@gmail.com"
-                }*/
+                }
             ]
         },
         bestAveiro: {

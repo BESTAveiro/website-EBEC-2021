@@ -111,47 +111,63 @@ $(document).ready(function () {
             title: "Program",
             schedule: [
                 {
-                    diaSemana: "Thursday", diaMes: "March 14th",
+                    diaSemana: "Tuesday", diaMes: "April 6th",
                     eventos: [
                         {
-                            hora: "16:00 - 17:30",
-                            nome: "Cocktail Network",
-                            local: "Complexo Pedagógico, University of Aveiro"
+                            hora: "16:30 - 18:30",
+                            nome: "Technical Training",
+                            local: "Online"
                         }
                     ]
                 },
                 {
-                    diaSemana: "Friday", diaMes: "March 15th",
+                    diaSemana: "Wednesday", diaMes: "April 7th",
                     eventos: [
                         {
-                            hora: "18:00 - 20:00",
-                            nome: "Best Training Days",
-                            local: "Complexo Pedagógico, University of Aveiro"
+                            hora: "14:00 - 16:00",
+                            nome: "Company Fair",
+                            local: "Online"
+                        },
+                        {
+                            hora: "16:30 - 18:30",
+                            nome: "Technical Training",
+                            local: "Online"
                         }
                     ]
                 },
                 {
-                    diaSemana: "Saturday", diaMes: "March 16th",
+                    diaSemana: "Thursday", diaMes: "April 8th",
                     eventos: [
-                        {hora: "09:30 - 10:30", nome: "Check-in", local: "DAO, University of Aveiro"},
-                        {hora: "10:30 - 11:30", nome: "Opening Session", local: "DAO, University of Aveiro"},
-                        {hora: "11:30 - 12:30", nome: "Companies Presentations", local: "DAO, University of Aveiro"},
-                        {hora: "12:30 - 13:00", nome: "Picture", local: "Meia Lua, University of Aveiro"},
-                        {hora: "13:00 - 14:30", nome: "Lunch", local: "Crasto refectory, University of Aveiro"},
-                        {hora: "14:30 - 00:00", nome: "Competition", local: "ESSUA, University of Aveiro"}
+                        {
+                            hora: "16:30 - 18:30",
+                            nome: "Technical Training",
+                            local: "Online"
+                        }
+                    ]
+                },
+            
+                {
+                    diaSemana: "Saturday", diaMes: "April 10th",
+                    eventos: [
+                        {hora: "10:00 - 10:30", nome: "Check-in", local: "Online"},
+                        {hora: "10:30 - 11:30", nome: "Opening Session", local: "Online"},
+                        {hora: "11:30 - 12:30", nome: "Companies Presentations", local: "Online"},
+                        {hora: "12:30 - 13:00", nome: "Picture", local: "Online"},
+                        {hora: "13:00 - 14:30", nome: "Lunch", local: "Online"},
+                        {hora: "14:30 - 00:00", nome: "Competition", local: "Online"}
                     ]
                 },
                 {
-                    diaSemana: "Sunday", diaMes: "March 17th",
+                    diaSemana: "Sunday", diaMes: "March 11th",
                     eventos: [
-                        {hora: "00:00 - 14:30", nome: "Competition", local: "ESSUA, University of Aveiro"}
+                        {hora: "00:00 - 14:30", nome: "Competition", local: "Online"}
                     ]
                 },
                 {
-                    diaSemana: "Wednesday", diaMes: "March 20th",
+                    diaSemana: "Wednesday", diaMes: "April 14th",
                     eventos: [
-                        {hora: "13:30 - 18:00", nome: "Presentations", local: "ESSUA, University of Aveiro"},
-                        {hora: "18:00 - 19:00", nome: "Closing Session", local: "ESSUA, University of Aveiro"}
+                        {hora: "14:30 - 18:30", nome: "Presentations", local: "Online"},
+                        {hora: "18:45 - 19:30", nome: "Closing Session", local: "Online"}
                     ]
                 }
             ]
@@ -341,17 +357,18 @@ $(document).ready(function () {
         team: {
             sectionHeading: "The Team",
             equipa: [
-                {nome: "Pedro D. Gomes", role: "Coordinator of EBEC Aveiro 2019", foto: "assets/img/team/david.jpg"},
-                {nome: "Ana Moura", role: "Topic Responsible", foto: "assets/img/team/anaMoura.jpg"},
-                {nome: "Dalila Marques", role: "Corporate Relations Responsible", foto: "assets/img/team/dalila.jpg"},
-                {nome: "Ana Rita Silva", role: "Marketing Responsible", foto: "assets/img/team/anaRita.jpg"}
+                {nome: "Beatriz Aleixo", role: "Coordinator of EBEC Aveiro 2021", foto: "assets/img/team/david.jpg"},
+                {nome: "Inês Leite", role: "Coordinator of EBEC Aveiro 2021", foto: "assets/img/team/david.jpg"},
+                {nome: "Fábio Freitas", role: "Topic Responsible", foto: "assets/img/team/david.jpg"},
+                {nome: "Carolina Rodrigues", role: "Corporate Relations Responsible", foto: "assets/img/team/david.jpg"},
+                
             ],
             equipa2: [
-                {nome: "Renan Ferreira", role: "Information Tecnology Responsible", foto: "assets/img/team/renan.jpg"},
-                {nome: "Beatriz Candeias", role: "Logistic Responsible", foto: "assets/img/team/beatriz.jpg"},
-                {nome: "Marta Santos", role: "Participants Responsible", foto: "assets/img/team/marta.jpg"},
-                {nome: "Luis Filipe Aguiar", role: "Public Relations Responsible", foto: "assets/img/team/luis.jpg"}
-            ]
+                {nome: "Pedro Marques", role: "Information Tecnology Responsible", foto: "assets/img/team/david.jpg"},
+                {nome: "Maria Canhoto", role: "Marketing Responsible", foto: "assets/img/team/david.jpg"},
+                {nome: "Maria João Martins", role: "Logistic Responsible", foto: "assets/img/team/david.jpg"},
+                {nome: "Bruna Cruz", role: "Participants Responsible", foto: "assets/img/team/david.jpg"},
+                ]
         },
         becomePartner: {
             sectionHeading: "Become Our Partner",
@@ -381,14 +398,22 @@ $(document).ready(function () {
         contacts: {
             sectionHeading: "Contacts",
             people: [
-                /*{
+                {
                     foto: "assets/img/team/david-2.jpg",
-                    nome: "Pedro D. Gomes",
-                    role: "Coordinator of EBEC Aveiro 2019",
-                    tel: "+(351) 938 097 366",
-                    email: "mailto:pedrodavid1969@gmail.com",
-                    email2: "pedrodavid1969@gmail.com"
-                },*/
+                    nome: "Inês Leite",
+                    role: "Main Organiser of EBEC Aveiro 2021",
+                    tel: "+(351) 914 241 456",
+                    email: "mailto:inesleite200020@gmail.com ",
+                    email2: "inesleite200020@gmail.com "
+                },
+                {
+                    foto: "assets/img/team/david-2.jpg",
+                    nome: "Beatriz Aleixo",
+                    role: "Main Organiser of EBEC Aveiro 2021",
+                    tel: "+(351) 961 967 126",
+                    email: "mailto:beatriz1aleixo@gmail.com",
+                    email2: "beatriz1aleixo@gmail.com"
+                },
                 {
                     foto: "assets/img/team/mateus.jpg",
                     nome: "Mateus Lima",
@@ -397,14 +422,16 @@ $(document).ready(function () {
                     email: "mailto:mateus.lima@BEST.eu.org",
                     email2: "mateus.lima@BEST.eu.org"
                 },
-                /*{
-                    foto: "assets/img/team/dalila-2.jpg",
-                    nome: "Dalila Marques",
+                {
+                    foto: "assets/img/team/david-2.jpg",
+                    nome: "Carolina Rofrigues",
                     role: "Corporate Relations Responsible",
-                    tel: "+(351) 917 369 988",
-                    email: "mailto:dalilarakelam@gmail.com",
-                    email2: "dalilarakelam@gmail.com"
-                }*/
+                    tel: "+(351) --- --- ---",
+                    email: "mailto:-----@gmail.com",
+                    email2: "-----@gmail.com"
+                }
+        
+             
             ]
         },
         bestAveiro: {
