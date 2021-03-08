@@ -53,7 +53,7 @@ $(document).ready(function () {
                     ps: [
                         "<b style=\"color:orange\">BEST Aveiro</b> has the pleasure to announce the EBEC Aveiro 2021, one " +
                         "of the 88 local stages of the EBEC project, with the duration of 24 hours.",
-                        " With the eleventh edition happening in <b style=\"color:orange\">March of 2021</b>, the event has been " +
+                        " With the next edition happening in <b style=\"color:orange\">April of 2021</b>, the event has been " +
                         "counting with a bigger number of participants each year. Considered one of the most outstanding " +
                         "events of BEST Aveiro, conceptualized with an eye at the students of the University of Aveiro, " +
                         "EBEC Aveiro aims to be a moment where creativity, challenge, energy, flexibility and team spirit " +
@@ -265,7 +265,7 @@ $(document).ready(function () {
                         "The presentation of your project will be on the next wednesday (march 20th)."
                 },
                 {
-                    p: "How many members are there per team?",
+                    p: "How many members can a team have?",
                     r: "Each team must <u>always</u> have 4 members."
                 },
                 {
@@ -420,7 +420,7 @@ $(document).ready(function () {
                     role: "President of BEST Aveiro",
                     tel: "+351 913 396 248",
                     email: "mailto:mateus.lima@BEST.eu.org",
-                    email2: "mateus.lima@BEST.eu.org"
+                    email2: "mateus.lima@BEST-eu.org"
                 },
                 {
                     foto: "assets/img/team/david-2.jpg",
@@ -463,7 +463,7 @@ $(document).ready(function () {
                 {chave: "Telephone", valor: "+351 917 077 329", classe: "fa-phone"},
                 {
                     chave: "Email",
-                    valor: "<a href='mailto:aveiro@BEST.eu.org'>aveiro@BEST.eu.org</a>",
+                    valor: "<a href='mailto:aveiro@BEST-eu.org'>aveiro@BEST-eu.org</a>",
                     classe: "fa-envelope"
                 },
             ],

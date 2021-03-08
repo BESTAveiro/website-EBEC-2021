@@ -54,8 +54,8 @@ $(document).ready(function () {
                     ps: [
                         "É com prazer que o <b style='color:orange'>BEST Aveiro</b> organiza anualmente " +
                         "uma das 88 fases locais do projeto EBEC.",
-                        "Com a décima primeira edição da competição a ocorrer em <b style='color:orange'>março de 2021</b>, evento que tem vindo a contar com um " +
-                        "grande número de participantes em todas as edições, consideramo-lo um dos eventos de maior destaque" +
+                        "Com a próxima edição da competição a ocorrer em <b style='color:orange'>abril de 2021</b>, evento que tem vindo a contar com um " +
+                        "grande número de participantes em todas as edições, consideramo-lo um dos eventos de maior destaque " +
                         "do BEST Aveiro. Direcionado aos alunos da Universidade de Aveiro, a EBEC Aveiro pretende ser um " +
                         "momento onde criatividade, desafio, energia, flexibilidade e espírito de equipa são postos em prática. ",
                         /*"No sentido de promover uma melhor relação entre estudantes e empresas, a EBEC Aveiro organizará, " +
@@ -188,12 +188,12 @@ $(document).ready(function () {
                 " Lê o regulamento que se encontra <a href='assets/Regulamento.pdf' target='_blank'>aqui</a>.",
                 "Regista-te no site do BEST. Podes fazê-lo " +
                 "<a target='_blank' href='https://www.best.eu.org/account/registration.jsp'>aqui</a>.",
-                " Efetua a pré-inscrição na EBEC Aveiro 2019. Podes fazê-lo " +
+                " Efetua a pré-inscrição na EBEC Aveiro 2021. Podes fazê-lo " +
                 "<a href=\"https://www.best.eu.org/event/localDetails.jsp?event=o538j3f\" target=\"_blank\">aqui</a>.",
                 " Indica o nome da tua equipa. Todos os elementos da equipa devem indicar o mesmo nome.",
                 " Preenche os dados pedidos. Todos os campos deverão ser preenchidos, à exceção do campo \"Motivation Letter\", " +
                 "que é de preenchimento facultativo. Clica em 'Apply' para finalizares esta parte.",
-                "Já tens equipa? Então terminaste a tua pré-inscrição para a EBEC Aveiro 2019. Brevemente irás " +
+                "Já tens equipa? Então terminaste a tua pré-inscrição para a EBEC Aveiro 2021. Brevemente irás " +
                 "receber um e-mail de confirmação de inscrição com mais informação sobre o evento."
             ]
         },
@@ -273,7 +273,7 @@ $(document).ready(function () {
                         "solução para o problema de <i>Case Study</i>. A apresentação do teu projeto será noutro dia a anunciar."
                 },
                 {
-                    p: "Há quantos membros por equipa?",
+                    p: "Quantos membros pode ter uma equipa?",
                     r: "Cada equipa é constituída <u>sempre</u> por 4 elementos."
                 },
                 {
@@ -382,7 +382,7 @@ $(document).ready(function () {
         becomePartner: {
             sectionHeading: "Torne-se Nosso parceiro",
             corpo: [
-                "Ao tornar-se nosso parceiro, a sua empresa estará integrada na organização da EBEC Aveiro 2020, com uma " +
+                "Ao tornar-se nosso parceiro, a sua empresa estará integrada na organização da EBEC Aveiro 2021, com uma " +
                 "equipa dinâmica e empenhada em satisfazer as necessidades de desenvolvimento extracurricular dos estudantes, " +
                 "bem como os interesses da sua empresa.", //Terá a oportunidade de participar numa feira de empresas e num " +
                 //"cocktail network.",
@@ -426,8 +426,8 @@ $(document).ready(function () {
                     nome: "Mateus Lima",
                     role: "Presidente do BEST Aveiro",
                     tel: "+351 913 396 248",
-                    email: "mailto:mateus.lima@BEST.eu.org",
-                    email2: "mateus.lima@BEST.eu.org"
+                    email: "mailto:mateus.lima@BEST-eu.org",
+                    email2: "mateus.lima@BEST-eu.org"
                 },
                 {
                     foto: "assets/img/team/david-2.jpg",
@@ -444,7 +444,7 @@ $(document).ready(function () {
             sectionHeading: "Sobre o BEST Aveiro",
             corpo: [
                 "Fundado oficialmente em 2010, o Grupo Local BEST Aveiro, sediado na Universidade de Aveiro, conta com " +
-                "cerca de 45 membros ativos das áreas de Ciências, Tecnologias e Engenharias. Ao longo dos seus 8 anos " +
+                "cerca de 45 membros ativos das áreas de Ciências, Tecnologias e Engenharias. Ao longo dos seus 11 anos " +
                 "de história distinguiu-se pela diversidade e qualidade de eventos organizados. Estes abrangem os estudantes " +
                 "a nível local, nacional e europeu, focando-se ainda no próprio desenvolvimento dos membros da Associação " +
                 "para que estes estejam em constante progressão e aprendizagem.",
@@ -468,7 +468,7 @@ $(document).ready(function () {
                 {chave: "Telefone", valor: "+351 917 077 329", classe: "fa-phone"},
                 {
                     chave: "Email",
-                    valor: "<a href='mailto:aveiro@BEST.eu.org'>aveiro@BEST.eu.org</a>",
+                    valor: "<a href='mailto:aveiro@BEST-eu.org'>aveiro@BEST-eu.org</a>",
                     classe: "fa-envelope"
                 },
             ],
