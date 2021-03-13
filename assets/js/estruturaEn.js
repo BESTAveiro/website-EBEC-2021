@@ -22,8 +22,8 @@ $(document).ready(function () {
                     title: "FAQ&Others",
                     menu: [
                         {nome: "FAQ", ref: "#faqs"},
-                        {nome: "Partners", ref: "#partners"},
                         {nome: "The Team", ref: "#equipa"},
+                        {nome: "Partners", ref: "#partners"},
                         {nome: "Become Our Partner", ref: "#parceria"},
                         {nome: "Contacts", ref: "#contactos"}]
                 },
@@ -94,6 +94,7 @@ $(document).ready(function () {
                     "The EBEC Portugal is the national final competition of engineering of BEST.",
                     "The EBEC Portugal is a National Round organized by 5 Local Groups of BEST from north to south of the " +
                     "country, where the winners of the local EBECs will compete against each other.",
+                    "\This year, the National Round will be organized by the BEST Local Group in Coimbra between the 14th an 17th of may.",
                     //"For more informations, visit the <a class=\"text-orange\" href=\"http://ebecportugal.pt/\" " +
                     //"target=\"_blank\">site</a>."
                 ]
@@ -180,7 +181,7 @@ $(document).ready(function () {
                 " Read the regulament that can be found <a href=\"../Regulamento.pdf\" target=\"_blank\">here</a>.",
                 " Sign up on BEST Website. You can do it " +
                 "<a href=\"https://www.best.eu.org/account/registration.jsp\" target=\"_blank\">here</a>.",
-                " Do a pre-registration on EBEC Aveiro 2019. You can do it " +
+                " Do a pre-registration on EBEC Aveiro 2021. You can do it " +
                 "<a href=\"https://www.best.eu.org/event/localDetails.jsp?event=o538j3f\" target=\"_blank\">here</a>.",
                 " Write the name of your team. All the members of the team have to write the same name.",
                 " Fill all the fields, with exception of 'Motivation Letter', which it's optional. Click on 'Apply' to finish " +
@@ -373,7 +374,7 @@ $(document).ready(function () {
         becomePartner: {
             sectionHeading: "Become Our Partner",
             corpo: [
-                "By becoming our partner, your company will be integrated in the organization of EBEC Aveiro 2019, with " +
+                "By becoming our partner, your company will be integrated in the organization of EBEC Aveiro 2021, with " +
                 "a dynamic team, that is committed to satisfy the needs of extracurricular activities development of the " +
                 "students, as much as the interests of your company.", //You will have the opportunity to participate in our " +
                 //"Job Fair and in our Cocktail Network.",

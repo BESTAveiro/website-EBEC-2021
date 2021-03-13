@@ -22,8 +22,8 @@ $(document).ready(function () {
                     title: "FAQ&Outros",
                     menu: [
                         {nome: "FAQ", ref: "#faqs"},
-                        {nome: "Parceiros", ref: "#partners"},
                         {nome: "A Equipa", ref: "#equipa"},
+                        {nome: "Parceiros", ref: "#partners"},
                         {nome: "Torne-se nosso Parceiro", ref: "#parceria"},
                         {nome: "Contactos", ref: "#contactos"}]
                 },
@@ -39,7 +39,7 @@ $(document).ready(function () {
         },
         entrada: {
             logo: "assets/img/logos/ebec-aveiro-color.png",
-            title: "14, 15, 16, 17 e 20 de março<br class='hidden-xs'> de 2019"
+            title: "14, 15, 16, 17 e 20 de março<br class='hidden-xs'> de 2021"
         },
         ebecAveiro: {
             sectionHeading: "EBEC Aveiro",
@@ -97,6 +97,7 @@ $(document).ready(function () {
                     "A EBEC Portugal é a final nacional da competição de Engenharia do BEST. ",
                     "A EBEC Portugal é uma Ronda Nacional organizada por 5 Grupos Locais do BEST de norte a sul do país. " +
                     "Na fase Nacional irão competir os vencedores das diferentes rondas locais, de 5 Universidades Portuguesas. ",
+                    "\nEste ano, a Ronda Nacional ocorrerá entre 14 e 17 de maio e está a ser organizada pelo Grupo Local do BEST em Coimbra"
                     /*"Para mais informações visita o <a class='text-orange' href='http://ebecportugal.pt/' " +
                     "target='_blank'>site</a>."*/
                 ]
@@ -330,7 +331,7 @@ $(document).ready(function () {
         },
         juri: {
             sectionHeading: "Júri",
-            sectionSubHeading: "Divulgaremos aqui quem irá julgar as provas",
+            sectionSubHeading: "Divulgaremos aqui os elementos do jurí",
             sectionSubHeading1: "TEAM DESIGN",
             sectionSubHeading2: "CASE STUDY",
             /*
