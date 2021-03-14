@@ -58,9 +58,9 @@ $(document).ready(function () {
                         "events of BEST Aveiro, conceptualized with an eye at the students of the University of Aveiro, " +
                         "EBEC Aveiro aims to be a moment where creativity, challenge, energy, flexibility and team spirit " +
                         "are put into practice.",
-                        /*"In order to promote a better relationship between students and companies, the EBEC Aveiro organization " +
-                        "will promote, apart from the competition a cocktail network, on March 14th.",
-                        "By any doubt, you can check the FAQ section or contact us by our team or by our information section."*/
+                        "In order to promote a better relationship between students and companies, the EBEC Aveiro organization " +
+                        "will promote, apart from the competition an online company fair, on April 7th.",
+                        "For more informations check the FAQ section or contact us."
                     ],
                     //subscribe: "Subscribe now!",
                     img: "assets/img/event/ebec-aveiro.png"
@@ -85,7 +85,7 @@ $(document).ready(function () {
                 },
                 /*seccao3: [
                     "The BEST Aveiro will organize again one more edition of the <b class=\"text-orange\">BEST Training Days</b>, " +
-                    "from EBEC Aveiro 2019, where you will have the opportunity to develop your abilities in a formation.",
+                    "from EBEC Aveiro 2021, where you will have the opportunity to develop your abilities in a formation.",
                     "The formation will occur during the afternoon of <b class='text-orange'>March 15th</b> and it is restricted " +
                     "to the participants.",
                     "All participants on the formation will receive a participation certificate."
@@ -95,8 +95,8 @@ $(document).ready(function () {
                     "The EBEC Portugal is a National Round organized by 5 Local Groups of BEST from north to south of the " +
                     "country, where the winners of the local EBECs will compete against each other.",
                     "\This year, the National Round will be organized by the BEST Local Group in Coimbra between the 14th an 17th of may.",
-                    //"For more informations, visit the <a class=\"text-orange\" href=\"http://ebecportugal.pt/\" " +
-                    //"target=\"_blank\">site</a>."
+                    "For more informations, visit the <a class=\"text-orange\" href=\"http://ebecportugal.pt/\" " +
+                    "target=\"_blank\">site</a>."
                 ]
             }
         },
@@ -187,11 +187,11 @@ $(document).ready(function () {
             sectionHeading: "Subscribing",
             sectionSubheading: "Here we will show you the steps to follow in order to apply as soon as applications are avaliable", //"To apply you only need to follow this steps:",
             corpo: [
-                " Read the regulament that can be found <a href=\"../Regulamento.pdf\" target=\"_blank\">here</a>.",
+                //" Read the regulament that can be found <a href=\"../Regulamento.pdf\" target=\"_blank\">here</a>.",
                 " Sign up on BEST Website. You can do it " +
                 "<a href=\"https://www.best.eu.org/account/registration.jsp\" target=\"_blank\">here</a>.",
                 " Do a pre-registration on EBEC Aveiro 2021. You can do it " +
-                "<a href=\"https://www.best.eu.org/event/localDetails.jsp?event=o538j3f\" target=\"_blank\">here</a>.",
+                "<a href=\"https://www.best.eu.org/event/localDetails.jsp?event=m6c42vb\" target=\"_blank\">here</a>.",
                 " Write the name of your team. All the members of the team have to write the same name.",
                 " Fill all the fields, with exception of 'Motivation Letter', which it's optional. Click on 'Apply' to finish " +
                 "this part.",
@@ -291,12 +291,12 @@ $(document).ready(function () {
                 {
                     p: "What penalties exist during the test for participants?",
                     r: "In case of infringement of the rules established for the competition, the team may be penalized " +
-                        "in the score of their challenge or disqualified." //The team may also lose their caution."
+                        "in the score of their challenge or disqualified.The team may also lose their deposit."
                 },
                 {
                     p: "Do we have to pay to participate in the competition?",
-                    r: "No"/*, each team will only have to leave a caution. The value will be returned to you at the end of " +
-                        "the competition after the closing session. This caution is intended to prevent any damage caused."*/
+                    r: "No, each team will only have to make a deposit. The value will be returned to you at the end of " +
+                        "the competition after the closing session if all terms are in agreement."
                 },
                 /*{
                     p: "Are we provide with food during the competition's weekend?",
@@ -385,19 +385,18 @@ $(document).ready(function () {
             corpo: [
                 "By becoming our partner, your company will be integrated in the organization of EBEC Aveiro 2021, with " +
                 "a dynamic team, that is committed to satisfy the needs of extracurricular activities development of the " +
-                "students, as much as the interests of your company.", //You will have the opportunity to participate in our " +
-                //"Job Fair and in our Cocktail Network.",
-                /*"<span class='big-number text-blue'>•</span> Mark presence in our company fair and expose your company, " +
-                "products and projects. You will have the opportunity of exchange experiences with students in a more " +
+                "students, as much as the interests of your company. You will have the opportunity to participate in our " +
+                "online Company Fair.",
+                "<span class='big-number text-blue'>•</span> Attend our company fair and expose your company, " +
+                "products and projects. You will have the opportunity to exchange experiences with students in a more " +
                 "informal environment.",
-                "<span class='big-number text-blue'>•</span> Benefit yourself with the access of available curricula, in " +
-                "optional way, from the competition's participants and students of University of Aveiro present in the " +
-                "closing session.",
-                "<span class='big-number text-blue'>•</span> The right to work in line with the Topic Group, being able " +
+                "<span class='big-number text-blue'>•</span> Benefit of access to the curricula, optionally made available " +
+                "by the competition's participants and students of University of Aveiro.",
+                "<span class='big-number text-blue'>•</span> The right to work with the Topic Group, being able " +
                 "to propose subjects, of Case Study as much as Team Design, that will be realized by the participants.",
                 "As our partner, you will benefit with narrow interactions by students of the University of Aveiro, through " +
                 "our company fair and a cocktail network, managing to collect many perceptions through our intense knowledge " +
-                "sharing.",*/
+                "sharing.",
                 "Your company will increase its visibility between the students of the University of Aveiro, known by their " +
                 "dynamism, innovation, and entrepreneurship, through the promotion available by BEST Aveiro.",
                 "If you are interesting in being our partner, contact us through our team's <a class=\"text-blue-light\" " +

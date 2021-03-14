@@ -58,11 +58,10 @@ $(document).ready(function () {
                         "grande número de participantes em todas as edições, consideramo-lo um dos eventos de maior destaque " +
                         "do BEST Aveiro. Direcionado aos alunos da Universidade de Aveiro, a EBEC Aveiro pretende ser um " +
                         "momento onde criatividade, desafio, energia, flexibilidade e espírito de equipa são postos em prática. ",
-                        /*"No sentido de promover uma melhor relação entre estudantes e empresas, a EBEC Aveiro organizará, " +
-                        "à parte da competição, uma <span style='color:orange'>feira de empresas</span> seguida" +
-                        "de um cocktail network, que irão ocorrer no dia 14 de março.",
-                        "Para qualquer dúvida, podes-se informar na secção FAQ ou nos contactar por meio da nossa equipa" +
-                        "ou por meios da secção de informações."*/
+                        "No sentido de promover uma melhor relação entre estudantes e empresas, a EBEC Aveiro organizará, " +
+                        "à parte da competição, uma <span style='color:orange'>tarde empresarial online</span>" +
+                        ", que irá ocorrer no dia 7 de abril.",
+                        "Para mais informações consulta a secção FAQ ou contacta-nos."
                     ],
                     /*subscribe: "Inscreve-te já!",*/
                     img: "assets/img/event/ebec-aveiro.png"
@@ -97,9 +96,9 @@ $(document).ready(function () {
                     "A EBEC Portugal é a final nacional da competição de Engenharia do BEST. ",
                     "A EBEC Portugal é uma Ronda Nacional organizada por 5 Grupos Locais do BEST de norte a sul do país. " +
                     "Na fase Nacional irão competir os vencedores das diferentes rondas locais, de 5 Universidades Portuguesas. ",
-                    "\nEste ano, a Ronda Nacional ocorrerá entre 14 e 17 de maio e está a ser organizada pelo Grupo Local do BEST em Coimbra"
-                    /*"Para mais informações visita o <a class='text-orange' href='http://ebecportugal.pt/' " +
-                    "target='_blank'>site</a>."*/
+                    "\nEste ano, a Ronda Nacional ocorrerá entre 14 e 17 de maio e está a ser organizada pelo Grupo Local do BEST em Coimbra",
+                    "Para mais informações visita o <a class='text-orange' href='http://ebecportugal.pt/' " +
+                    "target='_blank'>site</a>."
                 ]
             }
         },
@@ -191,11 +190,11 @@ $(document).ready(function () {
             sectionHeading: "Inscrição",
             sectionSubheading: "Nesta seccão indicar-te-emos os passos a seguir para efetuares a tua inscrição assim que esta estiver disponível", //"Para te inscreveres só precisas de efetuar os seguintes passos:",
             corpo: [
-                " Lê o regulamento que se encontra <a href='assets/Regulamento.pdf' target='_blank'>aqui</a>.",
+                //" Lê o regulamento que se encontra <a href='Regulamento.pdf' target='_blank'>aqui</a>.",
                 "Regista-te no site do BEST. Podes fazê-lo " +
                 "<a target='_blank' href='https://www.best.eu.org/account/registration.jsp'>aqui</a>.",
                 " Efetua a pré-inscrição na EBEC Aveiro 2021. Podes fazê-lo " +
-                "<a href=\"https://www.best.eu.org/event/localDetails.jsp?event=o538j3f\" target=\"_blank\">aqui</a>.",
+                "<a href=\"https://www.best.eu.org/event/localDetails.jsp?event=m6c42vb\" target=\"_blank\">aqui</a>.",
                 " Indica o nome da tua equipa. Todos os elementos da equipa devem indicar o mesmo nome.",
                 " Preenche os dados pedidos. Todos os campos deverão ser preenchidos, à exceção do campo \"Motivation Letter\", " +
                 "que é de preenchimento facultativo. Clica em 'Apply' para finalizares esta parte.",
@@ -295,12 +294,12 @@ $(document).ready(function () {
                 {
                     p: "Que penalizações existem durante a prova para os participantes?",
                     r: "Caso se verifique o incumprimento das regras definidas para a competição, a equipa poderá ser penalizada " +
-                        "na pontuação da sua prova ou desqualificada."//A equipa poderá também estar sujeita à perda da caução."
+                        "na pontuação da sua prova ou desqualificada. A equipa poderá também estar sujeita à perda da caução."
                 },
                 {
                     p: "Paga-se para participar na competição?",
-                    r: "Não."/*, cada equipa terá apenas de deixar uma caução. O valor ser-te-á devolvido no final da competição, " +
-                        "após a sessão de encerramento. Esta caução tem por objetivo prevenir quaisquer estragos causados."*/
+                    r: "Não, cada equipa terá apenas de deixar uma caução. O valor ser-te-á devolvido no final da competição, " +
+                        "após a sessão de encerramento, caso se verifique o cumprimento de todas as regras. "
                 },
                 /*{
                     p: "Temos direito a alimentação durante o fim de semana da competição?",
@@ -390,17 +389,16 @@ $(document).ready(function () {
             corpo: [
                 "Ao tornar-se nosso parceiro, a sua empresa estará integrada na organização da EBEC Aveiro 2021, com uma " +
                 "equipa dinâmica e empenhada em satisfazer as necessidades de desenvolvimento extracurricular dos estudantes, " +
-                "bem como os interesses da sua empresa.", //Terá a oportunidade de participar numa feira de empresas e num " +
-                //"cocktail network.",
-                /*"<span class=\"big-number text-blue\">•</span>Marque presença numa feira de empresas e exponha a sua empresa, produtos e projetos. Terá a oportunidade " +
+                "bem como os interesses da sua empresa. Terá a oportunidade de participar numa tarde empresarial online. ",
+                "<span class=\"big-number text-blue\">•</span>Marque presença na tarde empresarial e exponha a sua empresa, produtos e projetos. Terá a oportunidade " +
                 "de trocar experiências com os estudantes num ambiente informal.",
                 "<span class=\"big-number text-blue\">•</span>Beneficie do acesso aos currículos disponibilizados, de forma opcional, pelos participantes do evento " +
-                "e estudantes da Universidade de Aveiro presentes na sessão de encerramento.",
+                "e estudantes da Universidade de Aveiro.",
                 "<span class=\"big-number text-blue\">•</span>Direito a trabalhar em sintonia com o Topic Group podendo propor provas, tanto de Case Study como de " +
                 "Team Design, que serão realizadas pelos participantes.",
                 "Como nosso parceiro, beneficiará de interações estreitas com estudantes da universidade de Aveiro, através " +
-                "de uma feira de empresas e um cocktail network, conseguindo recolher diversas perceções através de " +
-                "uma intensa partilha de conhecimentos.",*/
+                "de uma tarde empresarial, conseguindo recolher diversas perceções através de " +
+                "uma intensa partilha de conhecimentos.",
                 "A sua empresa aumentará ainda a visibilidade entre os estudantes da Universidade de Aveiro, conhecidos " +
                 "pelo seu dinamismo, inovação e empreendedorismo, através de promoção disponibilizada pelo BEST Aveiro.",
                 "Caso esteja interessado em ser nosso parceiro, contacte-nos por meio dos " +
@@ -431,7 +429,7 @@ $(document).ready(function () {
                     foto: "assets/img/team/mateus.jpg",
                     nome: "Mateus Lima",
                     role: "Presidente do BEST Aveiro",
-                    tel: "+351 913 396 248",
+                    tel: "+(351) 913 396 248",
                     email: "mailto:mateus.lima@BEST-eu.org",
                     email2: "mateus.lima@BEST-eu.org"
                 },
