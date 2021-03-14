@@ -393,9 +393,9 @@ $(document).ready(function () {
                 "<span class='big-number text-blue'>•</span> Benefit of access to the curricula, optionally made available " +
                 "by the competition's participants and students of University of Aveiro.",
                 "<span class='big-number text-blue'>•</span> The right to work with the Topic Group, being able " +
-                "to propose subjects, of Case Study as much as Team Design, that will be realized by the participants.",
-                "As our partner, you will benefit with narrow interactions by students of the University of Aveiro, through " +
-                "our company fair and a cocktail network, managing to collect many perceptions through our intense knowledge " +
+                "to propose challenges either of Case Study or Team Design, to be solved by the participants.",
+                "As our partner, you will benefit of narrow interactions with students of the University of Aveiro, through " +
+                "our online company fair, managing to collect many perceptions through our intense knowledge " +
                 "sharing.",
                 "Your company will increase its visibility between the students of the University of Aveiro, known by their " +
                 "dynamism, innovation, and entrepreneurship, through the promotion available by BEST Aveiro.",
