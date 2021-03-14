@@ -10,7 +10,7 @@ $(document).ready(function () {
                 {
                     title: "Sobre a EBEC",
                     menu: [
-                        {nome: "EBEC Aveiro", ref: "#seccoes"},
+                        {nome: "EBEC Aveiro", ref: "#ebec"},
                         {nome: "Edições Anteriores", ref: '#ebecAnt'},
                         {nome: "Programa", ref: '#programa'},
                         {nome: "Inscrição", ref: '#apply'},
@@ -115,10 +115,20 @@ $(document).ready(function () {
             title: "Programa",
             schedule: [
                 {
+                diaSemana: "Segunda", diaMes: "5 abril",
+                eventos: [
+                    {
+                        hora: "21:00 - 23:00",
+                        nome: "Formação Técnica",
+                        local: "Online"
+                    }
+                ]
+                },
+                {
                     diaSemana: "Terça", diaMes: "6 abril",
                     eventos: [
                         {
-                            hora: "16:30 - 18:30",
+                            hora: "21:00 - 23:00",
                             nome: "Formação Técnica",
                             local: "Online"
                         }
@@ -129,12 +139,12 @@ $(document).ready(function () {
                     eventos: [
                         {
                             hora: "14:00 - 16:00",
-                            nome: "Tarde Empresarial",
+                            nome: "Tarde Empresarial Online",
                             local: "Online"
                         },
                         
                         {
-                            hora: "16:30 - 18:30",
+                            hora: "21:00 - 23:00",
                             nome: "Formação Técnica",
                             local: "Online"
                         }
@@ -144,8 +154,8 @@ $(document).ready(function () {
                     diaSemana: "Quinta", diaMes: "8 abril",
                     eventos: [
                         {
-                            hora: "16:30 - 18:30",
-                            nome: "Formação Técnica",
+                            hora: "21:00 - 23:00",
+                            nome: "Formação Complementar",
                             local: "Online"
                         }
                     ]
@@ -155,13 +165,8 @@ $(document).ready(function () {
                     diaSemana: "Sábado", diaMes: "10 abril",
                     eventos: [
                         {hora: "10:00 - 10:30", nome: "Check-in", local: "Online"},
-                        {hora: "10:30 - 11:30", nome: "Sessão de Abertura", local: "Online"},
-                        {
-                            hora: "11:30 - 12:30",
-                            nome: "Apresentação das empresas",
-                            local: "Online"
-                        },
-                        {hora: "12:30 - 13:00", nome: "Picture", local: "Online"},
+                        {hora: "10:30 - 12:30", nome: "Sessão de Abertura e Apresentação das Empresas", local: "Online"},
+                        {hora: "12:30 - 13:00", nome: "Fotos", local: "Online"},
                         {hora: "13:00 - 14:30", nome: "Almoço", local: "Online"},
                         {hora: "14:30 - 00:00", nome: "Competição", local: "Online"}
                     ]
@@ -366,16 +371,16 @@ $(document).ready(function () {
         team: {
             sectionHeading: "Equipa",
             equipa: [
-                {nome: "Beatriz Aleixo", role: "Coordenadora da EBEC Aveiro 2021", foto: "assets/img/team/david.jpg"},
-                {nome: "Inês Leite", role: "Coordenadora da EBEC Aveiro 2021", foto: "assets/img/team/david.jpg"},
+                {nome: "Beatriz Aleixo", role: "Coordenadora da EBEC Aveiro 2021", foto: "assets/img/team/beatriz.jpeg"},
+                {nome: "Inês Leite", role: "Coordenadora da EBEC Aveiro 2021", foto: "assets/img/team/ines.jpg"},
                 {nome: "Fábio Freitas", role: "Responsável de Tópico", foto: "assets/img/team/david.jpg"},
-                {nome: "Carolina Rodrigues", role: "Responsável de Relações Empresariais", foto: "assets/img/team/david.jpg"},
+                {nome: "Carolina Rodrigues", role: "Responsável de Relações Empresariais", foto: "assets/img/team/carolina.jpg"},
                 
             ],
             equipa2: [
-                {nome: "Pedro Marques", role: "Responsável de Tecnologias de Informação", foto: "assets/img/team/david.jpg"},
+                {nome: "Pedro Marques", role: "Responsável de Tecnologias de Informação", foto: "assets/img/team/pedro.jpg"},
                 {nome: "Maria Canhoto", role: "Responsável de Marketing", foto: "assets/img/team/david.jpg"},
-                {nome: "Maria João Martins", role: "Responsável de Logística", foto: "assets/img/team/david.jpg"},
+                {nome: "Maria João Martins", role: "Responsável de Logística", foto: "assets/img/team/mariajoao.jpg"},
                 {nome: "Bruna Cruz", role: "Responsável de Participantes", foto: "assets/img/team/david.jpg"},
                    
             ]
@@ -407,7 +412,7 @@ $(document).ready(function () {
             sectionHeading: "Contactos",
             people: [
                 {
-                    foto: "assets/img/team/david-2.jpg",
+                    foto: "assets/img/team/ines.jpg",
                     nome: "Inês Leite",
                     role: "Coordenadora da EBEC Aveiro 2021",
                     tel: "+(351) 914 241 456",
@@ -415,7 +420,7 @@ $(document).ready(function () {
                     email2: "inesleite200020@gmail.com "
                 },
                 {
-                    foto: "assets/img/team/david-2.jpg",
+                    foto: "assets/img/team/beatriz.jpeg",
                     nome: "Beatriz Aleixo",
                     role: "Coordenadora da EBEC Aveiro 2021",
                     tel: "+(351) 961 967 126",
@@ -431,7 +436,7 @@ $(document).ready(function () {
                     email2: "mateus.lima@BEST-eu.org"
                 },
                 {
-                    foto: "assets/img/team/david-2.jpg",
+                    foto: "assets/img/team/carolina.jpg",
                     nome: "Carolina Rodrigues",
                     role: "Responsável de Relações Empresariais",
                     tel: "+(351) 969 431 364",

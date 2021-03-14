@@ -79,7 +79,7 @@
                 </li>
                 <!--/ko-->
                 <li><a data-bind="text: lingua, attr: {href: page}"
-                       style="font-family: 'Ubuntu', sans-serif;font-size: medium;"></a></li>
+                       ></a></li>
             </ul>
         </div>
     </div>
@@ -355,14 +355,14 @@ setInterval(updateTime, 100)
         </div>
     </div>
     <div class="row text-center text-white" data-bind="foreach: schedule">
-        <div class="text-center col-md-2 col-sm-3"
+        <div class="text-center col-md-2 col-sm-2" style="width:14%; margin:auto"
            >
-            <h4 class="service-heading text-orange" data-bind="text: diaMes" style="font-size: 24px;"></h4>
-            <h5 class="text-orange" data-bind="text: diaSemana" style="font-size:22px"></h5>
+            <h4 class="service-heading text-orange" data-bind="text: diaMes" style="font-size: 18px;"></h4>
+            <h5 class="text-orange" data-bind="text: diaSemana" style="font-size:16px"></h5>
             <div data-bind="foreach: eventos">
                 <div data-bind="attr: {title: local}" data-toggle="tooltip" style="vertical-align: middle">
                     <p data-bind="text: hora" style="font-size:18px"></p>
-                    <p style="font-size:15px;"><b data-bind="text: nome"></b></p>
+                    <p style="font-size:13px;"><b data-bind="text: nome"></b></p>
                 </div>
             </div>
         </div>

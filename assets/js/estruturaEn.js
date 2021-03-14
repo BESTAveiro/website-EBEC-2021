@@ -10,7 +10,7 @@ $(document).ready(function () {
                 {
                     title: "About EBEC",
                     menu: [
-                        {nome: "EBEC Aveiro", ref: "#media"},
+                        {nome: "EBEC Aveiro", ref: "#ebec"},
                         {nome: "Previous Editions", ref: '#ebecAnt'},
                         {nome: "Program", ref: '#programa'},
                         {nome: "Subscribing", ref: '#apply'},
@@ -112,10 +112,20 @@ $(document).ready(function () {
             title: "Program",
             schedule: [
                 {
+                    diaSemana: "Monday", diaMes: "April 5th",
+                    eventos: [
+                        {
+                            hora: "21:00 - 23:00",
+                            nome: "Technical Training",
+                            local: "Online"
+                        }
+                    ]
+                },
+                {
                     diaSemana: "Tuesday", diaMes: "April 6th",
                     eventos: [
                         {
-                            hora: "16:30 - 18:30",
+                            hora: "21:00 - 23:00",
                             nome: "Technical Training",
                             local: "Online"
                         }
@@ -126,11 +136,11 @@ $(document).ready(function () {
                     eventos: [
                         {
                             hora: "14:00 - 16:00",
-                            nome: "Company Fair",
+                            nome: "Online Company Fair",
                             local: "Online"
                         },
                         {
-                            hora: "16:30 - 18:30",
+                            hora: "21:00 - 23:00",
                             nome: "Technical Training",
                             local: "Online"
                         }
@@ -141,7 +151,7 @@ $(document).ready(function () {
                     eventos: [
                         {
                             hora: "16:30 - 18:30",
-                            nome: "Technical Training",
+                            nome: "Complementary Training",
                             local: "Online"
                         }
                     ]
@@ -151,9 +161,8 @@ $(document).ready(function () {
                     diaSemana: "Saturday", diaMes: "April 10th",
                     eventos: [
                         {hora: "10:00 - 10:30", nome: "Check-in", local: "Online"},
-                        {hora: "10:30 - 11:30", nome: "Opening Session", local: "Online"},
-                        {hora: "11:30 - 12:30", nome: "Companies Presentations", local: "Online"},
-                        {hora: "12:30 - 13:00", nome: "Picture", local: "Online"},
+                        {hora: "10:30 - 12:30", nome: "Opening Session and Companies Presentations", local: "Online"},
+                        {hora: "12:30 - 13:00", nome: "Pictures", local: "Online"},
                         {hora: "13:00 - 14:30", nome: "Lunch", local: "Online"},
                         {hora: "14:30 - 00:00", nome: "Competition", local: "Online"}
                     ]
@@ -325,7 +334,7 @@ $(document).ready(function () {
         },
         juri: {
             sectionHeading: "Jury",
-            sectionSubHeading: "Yet to be announced who will evaluate the competition",
+            sectionSubHeading: "We will announce the juris here",
             sectionSubHeading1: "TEAM DESIGN",
             sectionSubHeading2: "CASE STUDY",
             juri1: [
@@ -358,16 +367,16 @@ $(document).ready(function () {
         team: {
             sectionHeading: "The Team",
             equipa: [
-                {nome: "Beatriz Aleixo", role: "Coordinator of EBEC Aveiro 2021", foto: "assets/img/team/david.jpg"},
-                {nome: "Inês Leite", role: "Coordinator of EBEC Aveiro 2021", foto: "assets/img/team/david.jpg"},
+                {nome: "Beatriz Aleixo", role: "Coordinator of EBEC Aveiro 2021", foto: "assets/img/team/beatriz.jpeg"},
+                {nome: "Inês Leite", role: "Coordinator of EBEC Aveiro 2021", foto: "assets/img/team/ines.jpg"},
                 {nome: "Fábio Freitas", role: "Topic Responsible", foto: "assets/img/team/david.jpg"},
-                {nome: "Carolina Rodrigues", role: "Corporate Relations Responsible", foto: "assets/img/team/david.jpg"},
+                {nome: "Carolina Rodrigues", role: "Corporate Relations Responsible", foto: "assets/img/team/carolina.jpg"},
                 
             ],
             equipa2: [
-                {nome: "Pedro Marques", role: "Information Tecnology Responsible", foto: "assets/img/team/david.jpg"},
+                {nome: "Pedro Marques", role: "Information Tecnology Responsible", foto: "assets/img/team/pedro.jpg"},
                 {nome: "Maria Canhoto", role: "Marketing Responsible", foto: "assets/img/team/david.jpg"},
-                {nome: "Maria João Martins", role: "Logistic Responsible", foto: "assets/img/team/david.jpg"},
+                {nome: "Maria João Martins", role: "Logistic Responsible", foto: "assets/img/team/mariajoao.jpg"},
                 {nome: "Bruna Cruz", role: "Participants Responsible", foto: "assets/img/team/david.jpg"},
                 ]
         },
@@ -400,7 +409,7 @@ $(document).ready(function () {
             sectionHeading: "Contacts",
             people: [
                 {
-                    foto: "assets/img/team/david-2.jpg",
+                    foto: "assets/img/team/ines.jpg",
                     nome: "Inês Leite",
                     role: "Main Organiser of EBEC Aveiro 2021",
                     tel: "+(351) 914 241 456",
@@ -408,7 +417,7 @@ $(document).ready(function () {
                     email2: "inesleite200020@gmail.com "
                 },
                 {
-                    foto: "assets/img/team/david-2.jpg",
+                    foto: "assets/img/team/beatriz.jpeg",
                     nome: "Beatriz Aleixo",
                     role: "Main Organiser of EBEC Aveiro 2021",
                     tel: "+(351) 961 967 126",
@@ -424,7 +433,7 @@ $(document).ready(function () {
                     email2: "mateus.lima@BEST-eu.org"
                 },
                 {
-                    foto: "assets/img/team/david-2.jpg",
+                    foto: "assets/img/team/carolina.jpg",
                     nome: "Carolina Rofrigues",
                     role: "Corporate Relations Responsible",
                     tel: "+(351) 969 431 364",
