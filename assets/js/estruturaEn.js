@@ -369,15 +369,15 @@ $(document).ready(function () {
             equipa: [
                 {nome: "Beatriz Aleixo", role: "Coordinator of EBEC Aveiro 2021", foto: "assets/img/team/beatriz.jpeg"},
                 {nome: "Inês Leite", role: "Coordinator of EBEC Aveiro 2021", foto: "assets/img/team/ines.jpg"},
-                {nome: "Fábio Freitas", role: "Topic Responsible", foto: "assets/img/team/david.jpg"},
+                {nome: "Fábio Freitas", role: "Topic Responsible", foto: "assets/img/team/fabio.jpg"},
                 {nome: "Carolina Rodrigues", role: "Corporate Relations Responsible", foto: "assets/img/team/carolina.jpg"},
                 
             ],
             equipa2: [
                 {nome: "Pedro Marques", role: "Information Tecnology Responsible", foto: "assets/img/team/pedro.jpg"},
-                {nome: "Maria Canhoto", role: "Marketing Responsible", foto: "assets/img/team/david.jpg"},
+                {nome: "Maria Canhoto", role: "Marketing Responsible", foto: "assets/img/team/mariac.jpg"},
                 {nome: "Maria João Martins", role: "Logistic Responsible", foto: "assets/img/team/mariajoao.jpg"},
-                {nome: "Bruna Cruz", role: "Participants Responsible", foto: "assets/img/team/david.jpg"},
+                {nome: "Bruna Cruz", role: "Participants Responsible", foto: "assets/img/team/bruna.jpg"},
                 ]
         },
         becomePartner: {

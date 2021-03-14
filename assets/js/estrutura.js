@@ -373,15 +373,15 @@ $(document).ready(function () {
             equipa: [
                 {nome: "Beatriz Aleixo", role: "Coordenadora da EBEC Aveiro 2021", foto: "assets/img/team/beatriz.jpeg"},
                 {nome: "Inês Leite", role: "Coordenadora da EBEC Aveiro 2021", foto: "assets/img/team/ines.jpg"},
-                {nome: "Fábio Freitas", role: "Responsável de Tópico", foto: "assets/img/team/david.jpg"},
+                {nome: "Fábio Freitas", role: "Responsável de Tópico", foto: "assets/img/team/fabio.jpg"},
                 {nome: "Carolina Rodrigues", role: "Responsável de Relações Empresariais", foto: "assets/img/team/carolina.jpg"},
                 
             ],
             equipa2: [
                 {nome: "Pedro Marques", role: "Responsável de Tecnologias de Informação", foto: "assets/img/team/pedro.jpg"},
-                {nome: "Maria Canhoto", role: "Responsável de Marketing", foto: "assets/img/team/david.jpg"},
+                {nome: "Maria Canhoto", role: "Responsável de Marketing", foto: "assets/img/team/mariac.jpg"},
                 {nome: "Maria João Martins", role: "Responsável de Logística", foto: "assets/img/team/mariajoao.jpg"},
-                {nome: "Bruna Cruz", role: "Responsável de Participantes", foto: "assets/img/team/david.jpg"},
+                {nome: "Bruna Cruz", role: "Responsável de Participantes", foto: "assets/img/team/bruna.jpg"},
                    
             ]
         },
