@@ -153,7 +153,7 @@ $(document).ready(function () {
                     diaSemana: "Quinta", diaMes: "8 abril",
                     eventos: [
                         {
-                            hora: "21:00 - 23:00",
+                            hora: "16:30 - 18:30",
                             nome: "Formação Complementar",
                             local: "Online"
                         }
@@ -190,7 +190,7 @@ $(document).ready(function () {
             sectionHeading: "Inscrição",
             sectionSubheading: "Nesta seccão indicar-te-emos os passos a seguir para efetuares a tua inscrição assim que esta estiver disponível", //"Para te inscreveres só precisas de efetuar os seguintes passos:",
             corpo: [
-                //" Lê o regulamento que se encontra <a href='Regulamento.pdf' target='_blank'>aqui</a>.",
+                " Lê o regulamento que se encontra <a href='Regulamento.pdf' target='_blank'>aqui</a> e as guidelines presentes <a href='Guidelines.pdf' target=\"_blank\">aqui</a>.",
                 "Regista-te no site do BEST. Podes fazê-lo " +
                 "<a target='_blank' href='https://www.best.eu.org/account/registration.jsp'>aqui</a>.",
                 " Efetua a pré-inscrição na EBEC Aveiro 2021. Podes fazê-lo " +
@@ -214,7 +214,7 @@ $(document).ready(function () {
                         "existência. O peso da responsabilidade é sem dúvida enorme, mas tudo compensa no momento em que, " +
                         "chegado ao dia do evento, vemos o empenho e a paixão com que os participantes aderem e se envolvem " +
                         "neste projeto",
-                    final: "João Valente<br>Coordenador da EBEC Challenge Aveiro 2018"
+                    final: "João Valente<br>Coordenador da EBEC Challenge Aveiro 2021"
                 },
                 {
                     foto: "assets/img/testimonials/2.jpg",
@@ -273,13 +273,18 @@ $(document).ready(function () {
             sectionSubHeading: "Frequently Asked Questions",
             vetor: [
                 {
+                    p: "Posso inscrever-me na Tarde Empresarial Online sem me inscrever na EBEC?",
+                    r: "Sim, podes! Para isso, basta preencher o formulário que se encontra <a href='https://docs.google.com/forms/d/e/1FAIpQLSfL-ZEYDy59C62rQrAxoomJ-_YIxZWWzDA2D-EuGfG69QUHCA/viewform' target='_blank'>aqui</a>."
+                },
+                {
                     p: "Quando tempo dura a competição?",
                     r: "Tens 24 horas para construir o teu protótipo, caso participes no <i>Team Design</i>, ou arranjar uma " +
                         "solução para o problema de <i>Case Study</i>. A apresentação do teu projeto será noutro dia a anunciar."
                 },
                 {
                     p: "Quantos membros pode ter uma equipa?",
-                    r: "Cada equipa é constituída <u>sempre</u> por 4 elementos."
+                    r: "Cada equipa é constituída <u>sempre</u> por 4 elementos. No entanto, podes candidatar-te a título individual " +
+                    "e serás posteriormente alocado a uma equipa."
                 },
                 {
                     p: "Quando é que saberemos qual é a prova que teremos que realizar?",

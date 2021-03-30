@@ -184,10 +184,10 @@ $(document).ready(function () {
 
         },
         apply: {
-            sectionHeading: "Subscribing",
+            sectionHeading: "How to Apply",
             sectionSubheading: "Here we will show you the steps to follow in order to apply as soon as applications are avaliable", //"To apply you only need to follow this steps:",
             corpo: [
-                //" Read the regulament that can be found <a href=\"../Regulamento.pdf\" target=\"_blank\">here</a>.",
+                " Read the regulament that can be found <a href=\"Regulamento.pdf\" target=\"_blank\">here</a> and the guidelines present <a href='\Guidelines.pdf' target=\"_blank\">here</a>.",
                 " Sign up on BEST Website. You can do it " +
                 "<a href=\"https://www.best.eu.org/account/registration.jsp\" target=\"_blank\">here</a>.",
                 " Do a pre-registration on EBEC Aveiro 2021. You can do it " +
@@ -195,7 +195,7 @@ $(document).ready(function () {
                 " Write the name of your team. All the members of the team have to write the same name.",
                 " Fill all the fields, with exception of 'Motivation Letter', which it's optional. Click on 'Apply' to finish " +
                 "this part.",
-                "Already have a team? So you finish your pre-registration to EBEC Aveiro 2018. Soon you will receive an " +
+                "Already have a team? So you finish your pre-registration to EBEC Aveiro 2021. Soon you will receive an " +
                 "email with confirmation of registration and more information about the event."
             ]
         },
@@ -270,13 +270,17 @@ $(document).ready(function () {
             sectionSubHeading2: "CASE STUDY",
             vetor: [
                 {
+                    p: "Can I sign up for the Online Company Fair without participating in EBEC?",
+                    r: "Yes, you can! You just need to fill in the form <a href='https://docs.google.com/forms/d/e/1FAIpQLSfL-ZEYDy59C62rQrAxoomJ-_YIxZWWzDA2D-EuGfG69QUHCA/viewform' target='_blank'>here</a>."
+                },
+                {
                     p: "How long does the competition last?",
                     r: "You have 24 hours to build your prototype or get a solution for your <i>Case Study</i>. " +
                         "The presentation of your project will be on the next wednesday (march 20th)."
                 },
                 {
                     p: "How many members can a team have?",
-                    r: "Each team must <u>always</u> have 4 members."
+                    r: "Each team must <u>always</u> have 4 members. However, you can apply individually, in which case you will then be assigned a team."
                 },
                 {
                     p: "When will we know what challenge we will have?",
