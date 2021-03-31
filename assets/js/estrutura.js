@@ -343,29 +343,46 @@ $(document).ready(function () {
             sectionSubHeading: "Divulgaremos aqui os elementos do jurí",
             sectionSubHeading1: "TEAM DESIGN",
             sectionSubHeading2: "CASE STUDY",
-            /*
+            
             juri1: [
                 {
-                    nome: "Vitor Bonifácio",
-                    foto: 'assets/img/juri/1.jpg',
-                    conta: "https://www.linkedin.com/in/vitor-bonif%C3%A1cio-473455127/"
+                    nome: "Margarida Facão",
+                    foto: 'assets/img/juri/margarida_facao.jpg',
+                    conta: "https://www.linkedin.com/in/margarida-facao-0233b688/"
+                },
+                {
+                    nome: "Paulo Lopes",
+                    foto: "assets/img/juri/paulo_lopes.png",
+                    conta: "#"
                 },
                 {
                     nome: "Ricardo Sousa",
-                    foto: "assets/img/juri/2.jpg",
+                    foto: "assets/img/juri/ricardo_sousa.png",
                     conta: "https://www.linkedin.com/in/ricardo-sousa-02a61317/"
-                },
-                {nome: "Bohdan Kulyk", foto: "assets/img/juri/3.jpg", conta: "https://www.linkedin.com/in/bohdankulyk/"}
+                }               
             ],
             juri2: [
-                {nome: "Diogo Gomes", foto: "assets/img/juri/4.jpg", conta: "https://www.linkedin.com/in/dgomes/"},
                 {
-                    nome: "João Labrincha",
-                    foto: "assets/img/juri/5.jpg",
-                    conta: "https://www.linkedin.com/in/jo%C3%A3o-labrincha-0b69549/"
+                    nome: "Luís Cadillon Costa",
+                    foto: "assets/img/juri/cadillon.jpg",
+                    conta: "#"
+                },
+                {
+                    nome: "João Veloso",
+                    foto: "assets/img/juri/joao_veloso.png",
+                    conta: "#"
+                },
+                {
+                    nome: "Nuno Durães",
+                    foto: "assets/img/juri/nuno_duraes.png",
+                    conta: "#"
+                },
+                {
+                    nome: "Nuno Lopes",
+                    foto: "assets/img/juri/nuno_lopes.png",
+                    conta: "https://www.linkedin.com/in/nuno-lopes-82aa82a7/"
                 }
             ]
-            */
         },
         partners: {
             sectionHeading: "Parceiros",
