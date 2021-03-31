@@ -340,7 +340,7 @@ $(document).ready(function () {
         },
         juri: {
             sectionHeading: "Júri",
-            sectionSubHeading: "Divulgaremos aqui os elementos do jurí",
+            sectionSubHeading: "Este será o juri que avaliará o teu trabalho",
             sectionSubHeading1: "TEAM DESIGN",
             sectionSubHeading2: "CASE STUDY",
             

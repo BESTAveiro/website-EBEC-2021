@@ -338,7 +338,7 @@ $(document).ready(function () {
         },
         juri: {
             sectionHeading: "Jury",
-            sectionSubHeading: "We will announce the juris here",
+            sectionSubHeading: "Here it the juri that will evaluate your work",
             sectionSubHeading1: "TEAM DESIGN",
             sectionSubHeading2: "CASE STUDY",
             juri1: [
