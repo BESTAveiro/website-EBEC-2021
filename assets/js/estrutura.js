@@ -340,7 +340,7 @@ $(document).ready(function () {
         },
         juri: {
             sectionHeading: "Júri",
-            sectionSubHeading: "Divulgaremos aqui os elementos do jurí",
+            sectionSubHeading: "Este será o juri que avaliará o teu trabalho",
             sectionSubHeading1: "TEAM DESIGN",
             sectionSubHeading2: "CASE STUDY",
             
@@ -348,24 +348,24 @@ $(document).ready(function () {
                 {
                     nome: "Margarida Facão",
                     foto: 'assets/img/juri/margarida_facao.jpg',
-                    conta: ""
+                    conta: "https://www.linkedin.com/in/margarida-facao-0233b688/"
                 },
                 {
                     nome: "Ricardo Sousa",
                     foto: "assets/img/juri/ricardo_sousa.png",
-                    conta: ""
+                    conta: "https://www.linkedin.com/in/ricardo-sousa-02a61317/"
                 },
-                {nome: "Paulo Lopes", foto: "assets/img/juri/paulo_lopes.png", conta: ""}
+                {nome: "Paulo Lopes", foto: "assets/img/juri/paulo_lopes.png", conta: "#"}
             ],
             juri2: [
-                {nome: "Nuno Lopes", foto: "assets/img/juri/nuno_lopes.png", conta: ""},
-                {nome: "Nuno Durães", foto: "assets/img/juri/nuno_duraes.jpg", conta: ""},
+                {nome: "Nuno Lopes", foto: "assets/img/juri/nuno_lopes.png", conta: "https://www.linkedin.com/in/nuno-lopes-82aa82a7/"},
+                {nome: "Nuno Durães", foto: "assets/img/juri/nuno_duraes.jpg", conta: "#"},
                 {
                     nome: "Luís Cadillon",
                     foto: "assets/img/juri/cadillon.jpg",
-                    conta: ""
+                    conta: "#"
                 },
-                {nome: "João Veloso", foto: "assets/img/juri/joao_veloso.png", conta: ""},
+                {nome: "João Veloso", foto: "assets/img/juri/joao_veloso.png", conta: "#"},
                 
             ]
             
