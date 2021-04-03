@@ -477,7 +477,7 @@ $(document).ready(function () {
                         "3810-193 Aveiro<br/>Portugal",
                     classe: "fa-home"
                 },
-                {chave: "Telefone", valor: "+351 917 077 329", classe: "fa-phone"},
+                {chave: "Telefone", valor: "+351 913 396 248", classe: "fa-phone"},
                 {
                     chave: "Email",
                     valor: "<a href='mailto:aveiro@BEST-eu.org'>aveiro@BEST-eu.org</a>",

@@ -435,7 +435,7 @@ $(document).ready(function () {
                     foto: "assets/img/team/mateus.jpg",
                     nome: "Mateus Lima",
                     role: "President of BEST Aveiro",
-                    tel: "+351 913 396 248",
+                    tel: "+(351) 913 396 248",
                     email: "mailto:mateus.lima@BEST.eu.org",
                     email2: "mateus.lima@BEST-eu.org"
                 },
@@ -477,7 +477,7 @@ $(document).ready(function () {
                         "3810-193 Aveiro<br/>Portugal",
                     classe: "fa-home"
                 },
-                {chave: "Telephone", valor: "+351 917 077 329", classe: "fa-phone"},
+                {chave: "Telephone", valor: "+351 913 396 248", classe: "fa-phone"},
                 {
                     chave: "Email",
                     valor: "<a href='mailto:aveiro@BEST-eu.org'>aveiro@BEST-eu.org</a>",
