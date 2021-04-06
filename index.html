@@ -171,8 +171,8 @@ function updateTime () {
     var now = new Date();
     
     // Find the distance between now and the count down date
-    var distance = deadline.getTime() - now.getTime();
-        
+    //var distance = deadline.getTime() - now.getTime();
+    var distance = 0;      
     // Time calculations for days, hours, minutes and seconds
     var nowDays = Math.floor(distance / (1000 * 60 * 60 * 24)).toString();
     var nowHours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)).toString();

@@ -351,9 +351,9 @@ $(document).ready(function () {
                     conta: "https://www.linkedin.com/in/margarida-facao-0233b688/"
                 },
                 {
-                    nome: "Ricardo Sousa",
-                    foto: "assets/img/juri/ricardo_sousa.png",
-                    conta: "https://www.linkedin.com/in/ricardo-sousa-02a61317/"
+                    nome: "Fábio Fernandes",
+                    foto: "assets/img/juri/fabiofernandes.png",
+                    conta: "https://www.linkedin.com/in/fábio-fernandes-07274410a/"
                 },
                 {nome: "Paulo Lopes", foto: "assets/img/juri/paulo_lopes.png", conta: "#"}
             ],
